@@ -9,6 +9,7 @@ metadata:
     addonmanager.kubernetes.io/mode: Reconcile
     kubernetes.io/name: "Kibana"
 spec:
+    type: LoadBalancer
     selector:
     k8s-app: kibana-logging
   ports:
